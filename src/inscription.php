@@ -8,7 +8,14 @@
 </head>
 
 <body>
-
+    <main>
+        <div class="container">
+            <div class="left-container">
+                <img src="./images/sallegym.jpg" alt="Salle de sport">
+            </div>
+            <div class="right-container"></div>
+        </div>
+    </main>
 </body>
 
 </html>
