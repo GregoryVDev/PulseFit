@@ -5,13 +5,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: var(--colorBlack);
 }
 
 .left-container img {
   width: 100%;
 }
+
 /* FORMULAIRE */
+
+.form-login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 75px;
+}
 
 form label {
   display: none;
+}
+
+form input {
+  background: var(--colorBlack);
+  border: transparent;
+  border-bottom: 1px solid var(--colorWhite);
+  color: var(--colorWhite);
+  outline: none;
+}
+
+form input:focus {
+  border-bottom: 1px solid var(--colorOrange);
+}
+
+::placeholder {
+  color: var(--colorWhite);
 }

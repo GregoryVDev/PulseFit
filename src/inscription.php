@@ -29,8 +29,8 @@
                         <label for="password">Mot de passe :</label>
                         <input type="password" class="form-input" name="password" id="password" placeholder="Mot de passe">
                     </div>
+                </form>
             </div>
-            </form>
         </div>
     </main>
 </body>
