@@ -1,0 +1,17 @@
+/* INSCRIPTION */
+
+.container {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-container img {
+  width: 100%;
+}
+/* FORMULAIRE */
+
+form label {
+  display: none;
+}

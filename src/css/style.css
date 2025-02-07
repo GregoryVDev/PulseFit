@@ -8,6 +8,21 @@
   --fsize3: 2.1em;
   --fsize4: 1.3em;
   --fsize5: 1em;
+
+  /* BebasNeue */
+
+  --bebasNeueRegular: "BebasNeue-Regular";
+
+  /* Roboto */
+
+  --robotoRegular: "Roboto-Regular";
+
+  /* Oswald */
+
+  --oswaldBold: "Oswald-Bold";
+  --oswaldLight: "Oswald-Light";
+  --oswaldRegular: "Oswald-Regular";
+  --oswaldSemiBold: "Oswald-SemiBold";
 }
 
 *::before,
