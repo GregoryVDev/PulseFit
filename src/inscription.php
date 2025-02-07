@@ -24,6 +24,10 @@
                     <label for="email">E-mail :</label>
                     <input type="email" class="form-input" name="email" id="email" placeholder="Email">
                 </div>
+                <div class="container-password">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" class="form-input" name="password" id="password" placeholder="Mot de passe">
+                </div>
             </div>
         </div>
     </main>
