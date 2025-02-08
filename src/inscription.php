@@ -30,6 +30,7 @@
                         <input type="password" class="form-input" name="password" id="password" placeholder="Mot de passe">
                     </div>
                 </form>
+                <p>Vous avez un compte ? cliquez <span class="orange">ici</span></p>
             </div>
         </div>
     </main>
