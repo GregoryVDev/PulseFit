@@ -11,27 +11,35 @@
 
 <body>
     <main>
-        <div class="container">
-            <div class="left-container">
-                <img src="./images/sallegym.jpg" alt="Salle de sport">
-            </div>
-            <div class="right-container">
-                <form method="POST" class="form-login">
-                    <div class="container-firstname">
-                        <label for="prenom">Prénom :</label>
-                        <input type="text" class="form-input" name="firstname" id="firstname" placeholder="Prénom">
+        <div class="container-inscription">
+            <img src="./images/sallegym.jpg" alt="Salle de gym" class="gym">
+            <form method="POST" class="form-login">
+                <div class="container-firstname">
+                    <label for="pseudo">Pseudo :</label>
+                    <input type="text" class="form-input" name="pseudo" id="pseudo" placeholder="Pseudo">
+                </div>
+                <div class="container-email">
+                    <label for="email">Email :</label>
+                    <input type="email" class="form-input" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="container-password">
+                    <label for="pass">Mot de passe :</label>
+                    <input type="password" class="form-input" name="pass" id="pass" placeholder="Mot de passe">
+                    <img src="./img/logos/eye.svg" alt="Afficher/Masquer mot de passe" id="myPass" class="toggle-password">
+                </div>
+                <div class="container-general">
+                    <div class="container-politique">
+                        <label for="checkbox" class="custom-checkbox">
+                            <p>J'accepte <a href="privacy.php" class="politique">la politique de confidentialité</p></a>
+                        </label>
+                        <input type="checkbox" id="checkbox" name="terms">
                     </div>
-                    <div class="container-email">
-                        <label for="email">E-mail :</label>
-                        <input type="email" class="form-input" name="email" id="email" placeholder="Email">
+                    <div class="container-paragraph">
+                        <a href="connexion.php">Déjà un compte ?</a>
                     </div>
-                    <div class="container-password">
-                        <label for="password">Mot de passe :</label>
-                        <input type="password" class="form-input" name="password" id="password" placeholder="Mot de passe">
-                    </div>
-                </form>
-                <p>Vous avez un compte ? cliquez <span class="orange"><a href="#">ici</a></span></p>
-            </div>
+                </div>
+                <button type="submit" id="envoie">S'inscrire</button>
+            </form>
         </div>
     </main>
 </body>
