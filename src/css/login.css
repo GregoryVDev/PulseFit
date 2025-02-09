@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   background: var(--colorBlack);
+  padding-bottom: 20px;
 }
 
 .left-container img {
@@ -18,7 +19,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 75px;
+  padding: 20px;
 }
 
 form label {
@@ -39,4 +40,14 @@ form input:focus {
 
 ::placeholder {
   color: var(--colorWhite);
+}
+
+p {
+  color: var(--colorWhite);
+  text-align: center;
+}
+
+.orange a {
+  color: var(--colorOrange);
+  text-decoration: none;
 }
