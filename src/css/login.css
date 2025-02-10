@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: var(--oswaldBold);
 }
 
 main {
@@ -152,6 +153,10 @@ input[type="checkbox"] {
   border: 3px solid red;
 }
 
+.reduc {
+  color: var(--colorWhite);
+}
+
 /* MOBILE */
 
 @media all and (min-width: 480px) and (max-width: 767px) {
@@ -264,6 +269,8 @@ input[type="checkbox"] {
 
   .container-inscription .gym {
     height: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
 }
 

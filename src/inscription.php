@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
     <title>PulseFit</title>
 </head>
 
@@ -39,6 +40,7 @@
                     </div>
                 </div>
                 <button type="submit" id="envoie">S'inscrire</button>
+                <p class="reduc">* 25% pour votre premier cours. <br>Code promo : <span class="orange">PulseFit</span></p>
             </form>
         </div>
     </main>
