@@ -1,0 +1,22 @@
+header {
+  display: flex;
+}
+
+.logo {
+  height: 120px;
+}
+
+.container-left {
+  display: flex;
+}
+
+#burger-menu {
+  cursor: pointer;
+  height: 35px;
+  width: 40px;
+  margin: 20px;
+  overflow: visible;
+  position: relative;
+  top: 25px;
+  z-index: 2;
+}
