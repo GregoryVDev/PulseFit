@@ -1,9 +1,23 @@
+/* GENERAL */
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
 /* INSCRIPTION */
 .form-login {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0 50px 20px;
+  padding: 20px 50px 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 400px;
@@ -67,7 +81,7 @@ input[type="checkbox"] {
 .container-password img,
 .container-confirm img {
   position: absolute;
-  top: 5px;
+  top: 2px;
   right: 5px;
   width: 30px;
   height: 30px;
@@ -236,6 +250,17 @@ input[type="checkbox"] {
   .container-para {
     flex-direction: row;
   }
+
+  .form-login {
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+  }
+
+  .container-inscription .gym {
+    height: auto;
+  }
 }
 
 /* DESKTOP */
@@ -254,5 +279,10 @@ input[type="checkbox"] {
 
   .container-para {
     flex-direction: row;
+  }
+
+  .form-login {
+    padding: 20px 50px 20px;
+    margin: 0;
   }
 }

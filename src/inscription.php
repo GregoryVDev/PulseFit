@@ -25,7 +25,7 @@
                 <div class="container-password">
                     <label for="pass">Mot de passe :</label>
                     <input type="password" class="form-input" name="pass" id="pass" placeholder="Mot de passe">
-                    <img src="./img/logos/eye.svg" alt="Afficher/Masquer mot de passe" id="myPass" class="toggle-password">
+                    <img src="./images/logos/eye.svg" alt="Afficher/Masquer mot de passe" id="myPass" class="toggle-password">
                 </div>
                 <div class="container-general">
                     <div class="container-politique">
