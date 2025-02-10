@@ -83,18 +83,13 @@ input[type="checkbox"] {
   position: relative;
 }
 
-.container-password img,
-.container-confirm img {
+.container-password img {
   position: absolute;
   top: 2px;
   right: 5px;
   width: 30px;
   height: 30px;
   cursor: pointer;
-}
-
-.container-confirm {
-  position: relative;
 }
 
 .container-general {
@@ -219,10 +214,6 @@ input[type="checkbox"] {
 
 /* CONNEXION */
 
-.container-connexion .ca {
-  display: none;
-}
-
 .container-para {
   display: flex;
   flex-direction: column;
@@ -245,17 +236,6 @@ input[type="checkbox"] {
 /* TABLET */
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .container-connexion {
-    display: flex;
-    gap: 55px;
-  }
-
-  .container-connexion .ca {
-    display: block;
-    height: 48%;
-    width: 375px;
-  }
-
   .container-para {
     flex-direction: row;
   }
@@ -277,17 +257,6 @@ input[type="checkbox"] {
 /* DESKTOP */
 
 @media all and (min-width: 1024px) {
-  .container-connexion {
-    display: flex;
-    justify-content: center;
-  }
-
-  .container-connexion .ca {
-    display: block;
-    height: 100%;
-    width: 440px;
-  }
-
   .container-para {
     flex-direction: row;
   }
