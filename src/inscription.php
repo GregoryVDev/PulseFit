@@ -35,7 +35,7 @@
                         <input type="checkbox" id="checkbox" name="terms">
                     </div>
                     <div class="container-paragraph">
-                        <a href="connexion.php">Déjà un compte ?</a>
+                        <p>Déjà un compte ? Cliquez <a href="connexion.php"><span class="orange">ici</span></a></p>
                     </div>
                 </div>
                 <button type="submit" id="envoie">S'inscrire</button>

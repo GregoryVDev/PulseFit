@@ -56,6 +56,10 @@ main {
   color: var(--colorWhite);
 }
 
+.orange {
+  color: var(--colorOrange);
+}
+
 #envoie {
   margin: auto;
   padding: 10px;
@@ -102,7 +106,7 @@ input[type="checkbox"] {
 .container-general a {
   color: var(--colorWhite);
   font-size: 0.9rem;
-  width: 112px;
+  width: 110px;
 }
 
 .container-general a:hover {
@@ -199,7 +203,7 @@ input[type="checkbox"] {
   }
 
   .container-general {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .form-login {
@@ -223,7 +227,7 @@ input[type="checkbox"] {
 }
 
 .container-para a {
-  color: var(--colorPara);
+  color: var(--colorWhite);
 }
 
 /* MOBILE */
@@ -284,5 +288,20 @@ input[type="checkbox"] {
   .form-login {
     padding: 20px 50px 20px;
     margin: 0;
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .container-politique input {
+    height: 40%;
+  }
+
+  .container-inscription .gym {
+    width: 60%;
+  }
+
+  #envoie {
+    margin: 40px;
   }
 }
