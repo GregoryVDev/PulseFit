@@ -299,6 +299,8 @@ input[type="checkbox"] {
 
   .container-inscription .gym {
     width: 60%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
 
   #envoie {
