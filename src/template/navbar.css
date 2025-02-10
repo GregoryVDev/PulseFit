@@ -57,48 +57,26 @@ header {
 }
 
 #nav li a {
-  color: var(--colorPara);
+  color: var(--colorWhite);
   display: inline-block;
   font-size: 20px;
   margin-bottom: 30px;
-}
-
-.button-connect,
-.button-inscri {
-  display: none !important;
-}
-
-.button-connection {
-  border: 1px solid transparent;
-  border-radius: 10px;
-  padding: 8px;
-  color: var(--colorPara) !important;
-  background: var(--colorTitle);
-}
-
-.button-connection:hover {
-  opacity: 0.9;
 }
 
 .button-inscription {
   border: 1px solid transparent;
   border-radius: 10px;
   padding: 8px;
-  color: var(--colorPara) !important;
-  background: var(--colorButton);
+  color: var(--colorWhite) !important;
+  background: var(--colorOrange);
 }
 
 .button-inscription:hover {
   opacity: 0.9;
 }
 
-.button-connect,
-.button-inscri {
-  display: none;
-}
-
 #nav li a:hover {
-  color: var(--colorTitle);
+  color: var(--colorOrange);
 }
 
 .container-buttons {

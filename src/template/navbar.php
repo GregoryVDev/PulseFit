@@ -32,6 +32,7 @@
                 <li><a href="../inscription.php">Contact</a></li>
             </ul>
             <div class="container-buttons">
+                <img src="../images/logos/circle-user.svg" alt="">
                 <a href="../connexion.php" class="button-connection">Connexion</a>
                 <a href="../inscription.php" class="button-inscription">Réserver</a>
             </div>
