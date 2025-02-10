@@ -19,15 +19,17 @@
             </div>
         </div>
         <div id="burger-menu">
-            <span></span>
+            <svg width="40" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M3 7H21M8 17H16" stroke="var(--colorOrange)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
         </div>
         <nav id="nav">
             <ul class="nav_list">
                 <li><a href="../index.php">Accueil</a></li>
                 <li><a href="../games.php">Coachs</a></li>
                 <li><a href="../reviews.php">Services</a></li>
-                <li><a href="../connexion.php" class="button-connect">Formulres</a></li>
-                <li><a href="../inscription.php" class="button-inscri">Contact</a></li>
+                <li><a href="../connexion.php">Formules</a></li>
+                <li><a href="../inscription.php">Contact</a></li>
             </ul>
             <div class="container-buttons">
                 <a href="../connexion.php" class="button-connection">Connexion</a>
@@ -35,5 +37,8 @@
             </div>
         </nav>
     </header>
+    <script src="../js/burger.js">
+
+    </script>
 
 </body>

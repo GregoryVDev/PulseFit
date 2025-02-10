@@ -1,8 +1,11 @@
 header {
   display: flex;
+  justify-content: space-around;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   height: 120px;
 }
 
@@ -19,4 +22,87 @@ header {
   position: relative;
   top: 25px;
   z-index: 2;
+}
+
+#burger-menu svg {
+  width: 40px;
+  height: 40px;
+  fill: var(--colorOrange);
+  transition: transform 0.3s ease-in-out;
+}
+
+#burger-menu.close svg {
+  transform: rotate(180deg);
+}
+
+#nav {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#nav.overlay {
+  visibility: visible;
+  opacity: 1;
+  padding-top: 100px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#nav li a {
+  color: var(--colorPara);
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.button-connect,
+.button-inscri {
+  display: none !important;
+}
+
+.button-connection {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 8px;
+  color: var(--colorPara) !important;
+  background: var(--colorTitle);
+}
+
+.button-connection:hover {
+  opacity: 0.9;
+}
+
+.button-inscription {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 8px;
+  color: var(--colorPara) !important;
+  background: var(--colorButton);
+}
+
+.button-inscription:hover {
+  opacity: 0.9;
+}
+
+.button-connect,
+.button-inscri {
+  display: none;
+}
+
+#nav li a:hover {
+  color: var(--colorTitle);
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
