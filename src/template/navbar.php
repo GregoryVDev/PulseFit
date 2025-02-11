@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/fonts.css">
-    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="../template/navbar.css">
     <title>PulseFit</title>
 </head>
 
@@ -40,8 +40,3 @@
             </div>
         </nav>
     </header>
-    <script src="../js/burger.js">
-
-    </script>
-
-</body>
