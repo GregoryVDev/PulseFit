@@ -35,7 +35,7 @@
                 <img src="../images/logos/circle-user.svg" alt="">
                 <a href="../connexion.php" class="button-connection">Connexion</a>
                 <div class="container-reservation">
-                    <a href="../inscription.php" class="button-inscription">Réserver</a>
+                    <a href="../inscription.php" class="button-reservation">Réserver</a>
                 </div>
             </div>
         </nav>
