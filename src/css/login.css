@@ -45,7 +45,7 @@
 }
 
 .orange {
-  color: var(--colorOrange);
+  color: var(--colorOrange) !important;
 }
 
 #envoie {

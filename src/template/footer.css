@@ -57,11 +57,29 @@ footer ul li a:hover {
 }
 
 .container-support h3 {
-  text-align: center;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .container-support p {
+  color: var(--colorWhite);
+  line-height: 25px;
+  margin-left: 24px;
+}
+
+/* CONTAINER WORK */
+
+.container-work {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-work h3 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.container-work p {
   color: var(--colorWhite);
   line-height: 25px;
 }

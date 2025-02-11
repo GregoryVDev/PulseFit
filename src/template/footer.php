@@ -33,11 +33,11 @@
             <p>E-mail : info@pulsefit.fr</p>
             <p>Tel : 01 23 45 67 89</p>
         </div>
-        <div class="container-times">
+        <div class="container-work">
             <h3>Horaires</h3>
             <p>Lun - Sam : 6h - 23h</p>
             <p>Dimanche : 9h - 19h</p>
-            <p>Fermé les jours fériés</p>
+            <p class="orange">Fermé les jours fériés</p>
         </div>
     </footer>
     <div class="footer-bottom">
