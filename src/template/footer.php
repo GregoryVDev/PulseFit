@@ -41,10 +41,10 @@
         </div>
     </footer>
     <div class="footer-bottom">
-        <p>Mentions légales</p>
-        <p>Politique de confidentialité</p>
-        <p>Condition d'utilisation</p>
-        <p>© 2025 - Grégory</p>
+        <p><a href="#">Mentions légales</a></p>
+        <p><a href="#">Politique de confidentialité</a></p>
+        <p><a href="#">Condition d'utilisation</a></p>
+        <p><a href="#">© 2025 - Grégory</a></p>
     </div>
 </body>
 

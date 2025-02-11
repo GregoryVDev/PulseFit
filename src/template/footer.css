@@ -89,4 +89,16 @@ footer ul li a:hover {
 .footer-bottom {
   border-top: 1px solid var(--colorWhite);
   background: var(--colorBlack);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-bottom a {
+  color: var(--colorWhite);
+}
+
+.footer-bottom a:hover {
+  color: var(--colorOrange);
 }
