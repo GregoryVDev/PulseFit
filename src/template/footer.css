@@ -1,0 +1,13 @@
+footer h2 {
+  font-size: var(--fsize3);
+  color: var(--colorOrange);
+}
+
+footer {
+  background: var(--colorBlack);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--colorWhite);
+  background: var(--colorBlack);
+}

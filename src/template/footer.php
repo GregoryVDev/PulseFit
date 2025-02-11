@@ -15,7 +15,7 @@
 <body>
     <footer>
         <div class="container-logo">
-            <h1>PulseFit</h1>
+            <h2>PulseFit</h2>
         </div>
         <div class="container-li">
             <h3>Menu</h3>
