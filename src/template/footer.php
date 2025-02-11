@@ -17,13 +17,12 @@
         <div class="container-logo">
             <h2>PulseFit</h2>
         </div>
-        <div class="container-li">
+        <div class="container-ul">
             <h3>Menu</h3>
             <ul>
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">Coachs</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Accueil</a></li>
                 <li><a href="#">Formules</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
