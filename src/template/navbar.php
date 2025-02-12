@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../template/navbar.css">
     <link rel="stylesheet" href="../template/footer.css">
     <title>PulseFit</title>

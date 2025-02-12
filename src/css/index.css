@@ -1,0 +1,7 @@
+.illustration {
+  border: 3px solid blue;
+}
+
+.illustration img {
+  border: 3px solid red;
+}
