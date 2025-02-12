@@ -8,6 +8,7 @@ footer {
   align-items: center;
   gap: 20px;
   font-family: var(--robotoRegular);
+  justify-content: center;
 }
 
 footer h3 {
@@ -114,6 +115,10 @@ footer ul li a:hover {
   .politiques {
     display: flex;
     gap: 15px;
+  }
+
+  .footer-bottom {
+    padding: 10px;
   }
 }
 
