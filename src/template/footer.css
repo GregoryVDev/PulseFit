@@ -96,10 +96,39 @@ footer ul li a:hover {
   padding: 15px;
 }
 
+.politiques {
+  line-height: 25px;
+  text-align: center;
+}
+
 .footer-bottom a {
   color: var(--colorWhite);
 }
 
 .footer-bottom a:hover {
   color: var(--colorOrange);
+}
+
+/* TABLET FOOTER BOTTOM */
+@media all and (min-width: 768px) {
+  .politiques {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+/* TABLET */
+
+@media all and (min-width: 900px) {
+  footer {
+    flex-direction: row;
+    padding: 20px;
+    gap: 35px;
+    align-items: flex-start;
+  }
+
+  .politiques {
+    display: flex;
+    gap: 15px;
+  }
 }
