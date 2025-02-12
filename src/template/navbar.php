@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../template/navbar.css">
+    <link rel="stylesheet" href="../template/footer.css">
     <title>PulseFit</title>
 </head>
 
