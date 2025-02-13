@@ -1,8 +1,10 @@
-.illustration {
-  border: 3px solid blue;
+.illustration img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.illustration img {
-  border: 3px solid red;
-  width: 100%;
+.illustration img:nth-child(2),
+.illustration img:nth-child(3) {
+  display: none;
 }

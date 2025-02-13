@@ -34,6 +34,6 @@
         <p><a href="#">© 2025 - Grégory</a></p>
     </div>
     </body>
-    <scripte src="../js/burger.js"></scripte>
+    <script src="../js/burger.js"></script>
 
     </html>

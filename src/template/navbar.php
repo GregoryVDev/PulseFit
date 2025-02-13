@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../template/navbar.css">
     <link rel="stylesheet" href="../template/footer.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>PulseFit</title>
 </head>
 
 <body>
     <header>
-        <div class="container-left">
+        <div class=" container-left">
             <div class="logo">
                 <h1>PulseFit</h1>
             </div>
