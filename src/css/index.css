@@ -133,7 +133,6 @@
 article.coach img {
   width: 100%;
   height: 333px;
-  object-fit: cover;
 }
 
 .coach h3 {
@@ -147,4 +146,39 @@ figcaption {
 
 figcaption p {
   padding: 20px;
+}
+
+/* SERVICES */
+
+.services h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container-services {
+  background: var(--colorBlack);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cours img {
+  width: 100%;
+  height: 333px;
+}
+
+.cours figcaption h4 {
+  color: var(--colorOrange);
+  padding: 10px;
+}
+
+.cours figcaption p {
+  color: var(--colorWhite);
+  margin-bottom: 10px;
+}
+
+.cours a {
+  color: var(--colorWhite);
+  border: 1px solid var(--colorWhite);
+  padding: 10px;
 }

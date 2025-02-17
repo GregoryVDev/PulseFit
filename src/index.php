@@ -68,7 +68,51 @@
                 </figcaption>
             </figure>
         </article>
-
+    </section>
+    <section class="services">
+        <h2>Nos services</h2>
+        <div class="container-services">
+            <article class="cours">
+                <figure>
+                    <img src="./images/crossfit.jpg" alt="crossfit">
+                    <figcaption>
+                        <h4>Crossfit</h4>
+                        <p>50 min - 45€</p>
+                        <a href="#">Réserver</a>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="cours">
+                <figure>
+                    <img src="./images/cardio.jpg" alt="crossfit">
+                    <figcaption>
+                        <h4>Perte de poids</h4>
+                        <p>60 min - 65€</p>
+                        <a href="#">Réserver</a>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="cours">
+                <figure>
+                    <img src="./images/endurance.jpg" alt="crossfit">
+                    <figcaption>
+                        <h4>Cardio-Training</h4>
+                        <p>45 min - 70€</p>
+                        <a href="#">Réserver</a>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="cours">
+                <figure>
+                    <img src="./images/muscu.jpg" alt="crossfit">
+                    <figcaption>
+                        <h4>Musculation</h4>
+                        <p>90 min - 110€</p>
+                        <a href="#">Réserver</a>
+                    </figcaption>
+                </figure>
+            </article>
+        </div>
     </section>
 </main>
 <?php include "./template/footer.php" ?>
