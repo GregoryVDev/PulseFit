@@ -8,8 +8,8 @@
         <img src="./images/woman.jpg" alt="Femme">
         <img src="./images/woman2.jpg" alt="Femme">
         <div class="buttons-container">
-            <button><a href="#">Découvrez les formules</a></button>
-            <button><a href="#">Réserver un cours</a></button>
+            <button class="btn-orange"><a href="#">Découvrez les formules</a></button>
+            <button class="btn-black"><a href="#">Réserver un cours</a></button>
         </div>
     </section>
 
