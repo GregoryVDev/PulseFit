@@ -132,6 +132,8 @@
 
 article.coach img {
   width: 100%;
+  height: 333px;
+  object-fit: cover;
 }
 
 .coach h3 {
