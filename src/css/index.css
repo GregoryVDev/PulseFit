@@ -127,8 +127,22 @@
 
 .coachs h2 {
   text-align: center;
+  padding: 20px;
 }
 
 article.coach img {
   width: 100%;
+}
+
+.coach h3 {
+  font-size: var(--fsize3);
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+figcaption p {
+  padding: 20px;
 }

@@ -33,7 +33,7 @@
                 <img src="./images/laura.jpg" alt="Coach Laura">
                 <figcaption>
                     <h3>Laura</h3>
-                    <p>(CrossFit)</p>
+                    <span class="work">(CrossFit)</span>
                     <p>Laura vous accompagne dans des entraînements intenses et variés, alliant force, endurance et explosivité.</p>
                 </figcaption>
             </figure>
@@ -43,7 +43,7 @@
                 <img src="./images/maxime.jpg" alt="Coach Maxime">
                 <figcaption>
                     <h3>Maxime</h3>
-                    <p>(Perte de poids)</p>
+                    <span class="work">(Perte de poids)</span>
                     <p>Maxime est spécialisé dans l'accompagnement des personnels souhaitant perdre du poids et retrouver leur forme.</p>
                 </figcaption>
             </figure>
@@ -53,7 +53,7 @@
                 <img src="./images/amandine.jpg" alt="Coach Laura">
                 <figcaption>
                     <h3>Amandine</h3>
-                    <p>(Cardio-Training)</p>
+                    <span class="work">(Cardio-Training)</span>
                     <p>Amandine vous aide a améliorer votre endurance et brûler des graisses avec des séances de cardio dynamiques.</p>
                 </figcaption>
             </figure>
@@ -63,7 +63,7 @@
                 <img src="./images/pierre.jpg" alt="Coach Laura">
                 <figcaption>
                     <h3>Pierre</h3>
-                    <p>(Musculation)</p>
+                    <span class="work">(Musculation)</span>
                     <p>Pierre est un expert en musculation et vous aide à développer votre force et votre masse musculaire.</p>
                 </figcaption>
             </figure>
