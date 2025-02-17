@@ -69,12 +69,20 @@
   color: var(--colorBlack) !important;
 }
 
+.btn-orange a:hover {
+  opacity: 0.9;
+}
+
 .btn-black {
   background: var(--colorBlack);
 }
 
 .btn-black a {
   color: var(--colorOrange) !important;
+}
+
+.btn-black a:hover {
+  opacity: 0.9;
 }
 
 /* ABOUT */
@@ -101,14 +109,18 @@
 
 .container-about p {
   color: var(--colorWhite);
-  padding: 20px;
-  text-align: center;
+  padding: 20px 0 25px;
 }
 
 .container-about a {
   color: var(--colorWhite);
   border: 1px solid var(--colorWhite);
-  padding: 15px;
+  padding: 10px;
+}
+
+.container-about a:hover {
+  background: var(--colorOrange);
+  color: var(--colorBlack);
 }
 
 /* COACHS */
