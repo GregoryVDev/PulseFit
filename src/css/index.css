@@ -98,7 +98,7 @@
 
 .container-about {
   background: var(--colorBlack);
-  padding: 20px;
+  padding: 20px 20px 30px;
   text-align: center;
 }
 
@@ -124,6 +124,10 @@
 }
 
 /* COACHS */
+
+.coachs h2 {
+  text-align: center;
+}
 
 article.coach img {
   width: 100%;
