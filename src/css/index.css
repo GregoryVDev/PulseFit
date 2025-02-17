@@ -22,7 +22,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   color: white;
   font-size: 2rem;
   font-weight: bold;
@@ -77,6 +77,42 @@
   color: var(--colorOrange) !important;
 }
 
+/* ABOUT */
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
 .about img {
+  width: 100%;
+}
+
+.container-about {
+  background: var(--colorBlack);
+  padding: 20px;
+  text-align: center;
+}
+
+.container-about h2 {
+  color: var(--colorOrange);
+  text-align: center;
+}
+
+.container-about p {
+  color: var(--colorWhite);
+  padding: 20px;
+  text-align: center;
+}
+
+.container-about a {
+  color: var(--colorWhite);
+  border: 1px solid var(--colorWhite);
+  padding: 15px;
+}
+
+/* COACHS */
+
+article.coach img {
   width: 100%;
 }
