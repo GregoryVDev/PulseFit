@@ -160,6 +160,7 @@ figcaption p {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding: 30px;
 }
 
 .cours img {
@@ -181,4 +182,33 @@ figcaption p {
   color: var(--colorWhite);
   border: 1px solid var(--colorWhite);
   padding: 10px;
+}
+
+/* CONTACT */
+
+.contact h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container-contact {
+  background: var(--colorBlack);
+}
+
+.form-contact {
+  border: 2px solid red;
+  text-align: center;
+}
+
+.form-contact input {
+  padding: 5px;
+  background: var(--colorBlack);
+}
+
+::placeholder {
+  color: var(--colorWhite);
+}
+
+textarea {
+  background: var(--colorBlack);
 }

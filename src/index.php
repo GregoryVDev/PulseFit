@@ -114,5 +114,31 @@
             </article>
         </div>
     </section>
+    <div class="contact">
+        <h2>Contactez-nous</h2>
+        <div class="container-contact">
+            <form action="" class="form-contact">
+                <div class="container-prenom">
+                    <label for="Prénom"></label>
+                    <input type="text" id="prenom" placeholder="Prénom">
+
+                    <label for="Nom"></label>
+                    <input type="text" id="nom" placeholder="Nom">
+                </div>
+                <div class="container-mail">
+                    <label for="email"></label>
+                    <input type="email" id="mail" placeholder="Email">
+
+                    <label for="Nom"></label>
+                    <input type="text" id="objet" placeholder="Objet">
+                </div>
+                <div class="container-message">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" placeholder="Écrivez-votre message ici..."></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
 </main>
 <?php include "./template/footer.php" ?>
