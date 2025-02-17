@@ -49,10 +49,10 @@ body {
   min-height: 100vh;
 }
 
-main {
+/* main {
   display: flex;
   justify-content: center;
-}
+} */
 
 section {
   width: 100%;

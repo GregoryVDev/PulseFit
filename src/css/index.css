@@ -18,7 +18,7 @@
   opacity: 1;
 }
 
-.overlay {
+.title {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -75,4 +75,8 @@
 
 .btn-black a {
   color: var(--colorOrange) !important;
+}
+
+.about img {
+  width: 50px;
 }

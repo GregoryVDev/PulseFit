@@ -1,6 +1,6 @@
 <?php include "./template/navbar.php" ?>
 <main>
-    <div class="overlay">
+    <div class="title">
         <h1>Repoussez vos limites !</h1>
     </div>
     <section class="illustration">
@@ -12,6 +12,8 @@
             <button class="btn-black"><a href="#">Réserver un cours</a></button>
         </div>
     </section>
-
+    <section class="about">
+        <img src="./images/dos.jpg" alt="">
+    </section>
 </main>
 <?php include "./template/footer.php" ?>
