@@ -186,6 +186,10 @@ figcaption p {
 
 /* CONTACT */
 
+.contact {
+  border-bottom: 1px solid var(--colorWhite);
+}
+
 .contact h2 {
   text-align: center;
   padding: 20px;
