@@ -129,14 +129,14 @@
                     <label for="email"></label>
                     <input type="email" id="mail" placeholder="Email">
 
-                    <label for="Nom"></label>
+                    <label for="objet"></label>
                     <input type="text" id="objet" placeholder="Objet">
                 </div>
                 <div class="container-message">
                     <label for="message"></label>
                     <textarea name="message" id="message" placeholder="Écrivez-votre message ici..."></textarea>
                 </div>
-                <button type="submit">Envoyer</button>
+                <button type="submit" class="envoyer">Envoyer</button>
             </form>
         </div>
     </div>
