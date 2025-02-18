@@ -155,6 +155,10 @@ figcaption p {
   padding: 20px;
 }
 
+.cours {
+  border: 1px solid var(--colorWhite);
+}
+
 .container-services {
   background: var(--colorBlack);
   display: flex;
@@ -166,6 +170,10 @@ figcaption p {
 .cours img {
   width: 100%;
   height: 333px;
+}
+
+.cours figure {
+  margin-bottom: 20px;
 }
 
 .cours figcaption h4 {
