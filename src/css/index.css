@@ -274,9 +274,9 @@ figcaption p {
 
 /* MOBILE */
 
-@media all and (min-width: 400px) and (max-width: 767px) {
+@media all and (min-width: 400px) and (max-width: 768px) {
   .cours {
-    width: 80%;
+    width: 60%;
   }
 
   .cours img {
@@ -285,5 +285,29 @@ figcaption p {
 
   .container-services {
     align-items: center;
+  }
+}
+
+/* TABLET */
+
+@media all and (min-width: 769px) and (max-width: 1023px) {
+  .illustration {
+    overflow: visible;
+    display: flex;
+  }
+
+  .illustration img {
+    display: block;
+    position: relative;
+    opacity: 1;
+  }
+
+  .container-services {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cours {
+    width: 45%;
   }
 }
