@@ -7,11 +7,11 @@
         <article class="img">
             <img src="./images/man.jpg" alt="Homme">
         </article>
-        <article class="img">
+        <article class="img" style="width: 60%;">
             <img src="./images/woman.jpg" alt="Femme">
         </article>
-        <article class="img">
-            <img src="./images/woman2.jpg" alt="Femme">
+        <article class="img" style="width: 50%;">
+            <img src=" ./images/woman2.jpg" alt="Femme">
         </article>
         <div class="buttons-container">
             <button class="btn-orange"><a href="#">Découvrez les formules</a></button>
