@@ -169,11 +169,11 @@ figcaption p {
 
 .cours img {
   width: 100%;
-  height: 333px;
+  height: 340px;
 }
 
 .cours figure {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .cours figcaption h4 {
@@ -270,4 +270,20 @@ figcaption p {
   font-size: 16px;
   margin-top: 15px;
   background: var(--colorBlack);
+}
+
+/* MOBILE */
+
+@media all and (min-width: 400px) and (max-width: 767px) {
+  .cours {
+    width: 80%;
+  }
+
+  .cours img {
+    height: none;
+  }
+
+  .container-services {
+    align-items: center;
+  }
 }
