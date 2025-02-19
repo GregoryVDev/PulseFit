@@ -291,6 +291,10 @@ figcaption p {
 /* TABLET */
 
 @media all and (min-width: 769px) and (max-width: 1023px) {
+  .title {
+    transform: translate(-50%, -100%);
+  }
+
   .illustration {
     overflow: visible;
     width: 100%;
@@ -301,6 +305,10 @@ figcaption p {
     display: block;
     position: relative;
     opacity: 1;
+  }
+
+  .buttons-container {
+    flex-direction: row;
   }
 
   .container-services {
