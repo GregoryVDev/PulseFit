@@ -290,6 +290,18 @@ figcaption p {
   .container-services {
     align-items: center;
   }
+
+  .coach:nth-of-type(1) img {
+    object-position: center 10%;
+  }
+
+  .coach:nth-child(3) img {
+    object-position: center 55%;
+  }
+
+  .coach:nth-child(4) img {
+    object-position: top 50%;
+  }
 }
 
 /* TABLET */

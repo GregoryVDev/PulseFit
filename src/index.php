@@ -50,7 +50,7 @@
         </article>
         <article class="coach">
             <figure>
-                <img src="./images/amandine.jpg" alt="Coach Laura">
+                <img src="./images/amandine.jpg" alt="Coach Amandine">
                 <figcaption>
                     <h3>Amandine</h3>
                     <span class="work">(Cardio-Training)</span>
@@ -60,7 +60,7 @@
         </article>
         <article class="coach">
             <figure>
-                <img src="./images/pierre.jpg" alt="Coach Laura">
+                <img src="./images/pierre.jpg" alt="Coach Pierre">
                 <figcaption>
                     <h3>Pierre</h3>
                     <span class="work">(Musculation)</span>
