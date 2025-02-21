@@ -299,8 +299,8 @@ figcaption p {
     object-position: center 55%;
   }
 
-  .coach:nth-child(4) img {
-    object-position: top 50%;
+  .coach:nth-of-type(4) img {
+    object-position: center 25%;
   }
 }
 
