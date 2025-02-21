@@ -275,6 +275,10 @@ figcaption p {
 /* MOBILE */
 
 @media all and (min-width: 400px) and (max-width: 768px) {
+  .illustration img {
+    object-position: center 20%;
+  }
+
   .buttons-container {
     width: 60%;
   }
