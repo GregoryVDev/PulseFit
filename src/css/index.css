@@ -288,7 +288,7 @@ figcaption p {
   }
 
   .cours img {
-    height: none;
+    object-position: center 10%;
   }
 
   .container-services {
