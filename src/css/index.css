@@ -90,6 +90,7 @@
 .about {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .about img {
@@ -285,6 +286,20 @@ figcaption p {
 
   .cours {
     width: 60%;
+  }
+
+  .container-about {
+    width: 50%;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .about img {
+    width: 50%;
   }
 
   .cours img {
