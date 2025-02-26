@@ -211,12 +211,29 @@ figcaption p {
   padding: 20px;
 }
 
+.container-prenom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .form-contact {
   display: flex;
   flex-direction: column;
+  gap: 10px;
   width: 100%;
   max-width: 400px;
   padding: 20px;
+}
+
+.container-message {
+  margin-top: 10px;
 }
 
 .container-inputs {

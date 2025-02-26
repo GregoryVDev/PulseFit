@@ -125,7 +125,7 @@
                     <label for="Nom"></label>
                     <input type="text" id="nom" placeholder="Nom">
                 </div>
-                <div class="container-mail">
+                <div class="container-email">
                     <label for="email"></label>
                     <input type="email" id="mail" placeholder="Email">
 
