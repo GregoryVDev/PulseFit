@@ -60,6 +60,7 @@ h2 {
 
 section {
   width: 100%;
+  position: relative;
 }
 
 img {

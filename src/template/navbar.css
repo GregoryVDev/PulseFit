@@ -107,7 +107,7 @@ header {
 
 /* DESKTOP */
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1023px) {
   header {
     justify-content: space-between;
     height: 70px;
