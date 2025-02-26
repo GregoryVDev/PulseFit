@@ -323,6 +323,19 @@ figcaption p {
     object-position: center 10%;
   }
 
+  article.coach img {
+    height: 333px;
+  }
+
+  .coach {
+    text-align: center;
+  }
+
+  .coach figure {
+    width: 430px;
+    margin: 20px auto;
+  }
+
   .container-services {
     align-items: center;
   }
@@ -337,6 +350,10 @@ figcaption p {
 
   .coach:nth-of-type(4) img {
     object-position: center 25%;
+  }
+
+  figcaption p {
+    font-size: var(--fsize4);
   }
 }
 
