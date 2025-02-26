@@ -14,8 +14,8 @@
             <img src=" ./images/woman2.jpg" alt="Femme">
         </article>
         <div class="buttons-container">
-            <button class="btn-orange"><a href="#">Découvrez les formules</a></button>
-            <button class="btn-black"><a href="#">Réserver un cours</a></button>
+            <a href="#"><button class="btn-orange">Découvrez les formules</a></button>
+            <a href="#"><button class="btn-black">Réserver un cours</a></button>
         </div>
     </section>
     <section class="about">
