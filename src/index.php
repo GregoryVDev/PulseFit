@@ -5,10 +5,10 @@
     </div>
     <section class="illustration">
         <article class="img">
-            <img src="./images/man.jpg" alt="Homme">
+            <img src="./images/woman.jpg" alt="Femme">
         </article>
         <article class="img" style="width: 60%;">
-            <img src="./images/woman.jpg" alt="Femme">
+            <img src="./images/man.jpg" alt="Homme">
         </article>
         <article class="img" style="width: 50%;">
             <img src=" ./images/woman2.jpg" alt="Femme">
@@ -29,6 +29,7 @@
     <section class="coachs">
         <h2>Nos coachs</h2>
         <div class="container-coachs">
+            <div class="dr"></div>
             <article class="coach">
                 <figure>
                     <img src="./images/laura.jpg" alt="Coach Laura">

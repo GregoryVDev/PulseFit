@@ -431,3 +431,96 @@ figcaption p {
 }
 
 /* DESKTOP */
+
+@media all and (min-width: 1024px) {
+  .illustration {
+    overflow: visible;
+    width: 100%;
+    display: flex;
+  }
+
+  .img:nth-child(1) {
+    width: 33%;
+  }
+
+  .img:nth-child(2) {
+    width: 34%;
+  }
+
+  .illustration img {
+    display: block;
+    position: relative;
+    opacity: 1;
+    object-position: top;
+  }
+
+  .buttons-container {
+    flex-direction: row;
+    width: 30%;
+    gap: 5px;
+    transform: none;
+    right: 0;
+    bottom: -30px;
+  }
+
+  .buttons-container button {
+    padding: 25px;
+  }
+
+  .about {
+    align-items: center;
+    margin-top: 130px;
+  }
+
+  .about img {
+    width: 500px;
+  }
+
+  .container-about {
+    width: 350px;
+    position: relative;
+    bottom: 90px;
+    left: 200px;
+  }
+
+  .container-services {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cours {
+    width: 45%;
+  }
+
+  article.coach img {
+    width: 100%;
+  }
+
+  .container-coachs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .coach {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .coach figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    border: 1px solid var(--colorBlack);
+  }
+
+  .dr {
+    background: var(--colorBlack);
+    width: 60%;
+    height: 320px;
+    position: absolute;
+    left: 0;
+  }
+}
