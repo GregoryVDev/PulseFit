@@ -134,7 +134,6 @@
                     <div class="container-prenom">
                         <label for="Prénom"></label>
                         <input type="text" id="prenom" placeholder="Prénom">
-
                         <label for="Nom"></label>
                         <input type="text" id="nom" placeholder="Nom">
                     </div>

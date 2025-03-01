@@ -547,18 +547,20 @@ figcaption p {
     left: 0;
   }
 
+  /* CONTACT */
+
   .container-global {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .container-left-form {
-    border: 3px solid red;
-    width: 400px;
+    width: 415px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 15px;
   }
 
   .container-left-form h3 {
@@ -580,5 +582,29 @@ figcaption p {
   .container-contact {
     background: none;
     padding: 0;
+  }
+
+  .form-contact {
+    padding: 30px;
+  }
+
+  .form-contact input {
+    padding: 10px 0;
+  }
+
+  .container-prenom {
+    flex-direction: row;
+  }
+
+  .container-email {
+    flex-direction: row;
+  }
+
+  .form-contact textarea {
+    margin-left: 10px;
+  }
+
+  .form-contact input {
+    padding: 10px 0;
   }
 }
