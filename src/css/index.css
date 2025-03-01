@@ -556,11 +556,10 @@ figcaption p {
   }
 
   .container-left-form {
-    width: 415px;
+    width: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 15px;
+    justify-content: space-evenly;
   }
 
   .container-left-form h3 {
