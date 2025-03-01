@@ -570,6 +570,12 @@ figcaption p {
     margin-bottom: 20px;
   }
 
+  .container-left-form ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
   .container-left-form ul li {
     list-style: inside;
   }
