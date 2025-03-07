@@ -29,7 +29,7 @@
         <nav id="nav">
             <ul class="nav_list">
                 <li><a href="../index.php">Accueil</a></li>
-                <li><a href="../games.php">Coachs</a></li>
+                <li><a href="../coachs.php">Coachs</a></li>
                 <li><a href="../reviews.php">Services</a></li>
                 <li><a href="../connexion.php">Formules</a></li>
                 <li><a href="../inscription.php">Contact</a></li>
