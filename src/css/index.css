@@ -65,24 +65,29 @@
   background: var(--colorOrange);
 }
 
+.btn-orange:hover {
+  background: var(--colorBlack);
+  color: var(--colorWhite);
+}
+
 .btn-orange a {
   color: var(--colorBlack) !important;
 }
 
-.btn-orange a:hover {
-  opacity: 0.9;
+.btn-orange:hover a {
+  color: var(--colorWhite) !important;
 }
 
 .btn-black {
   background: var(--colorBlack);
 }
 
-.btn-black a {
-  color: var(--colorOrange) !important;
+.btn-black:hover {
+  background: var(--colorOrange);
 }
 
-.btn-black a:hover {
-  opacity: 0.9;
+.btn-black:hover a {
+  color: var(--colorBlack);
 }
 
 /* ABOUT */
