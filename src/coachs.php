@@ -3,7 +3,7 @@
     <h1>Nos coachs vous accompagne.</h1>
 
     <article class="card-coachs">
-        <img src="" alt="">
+        <img src="./images/laura2.jpg" alt="Laura">
         <h3>Laura</h3>
         <h6>(CrossFit)</h6>
         <p>
@@ -14,7 +14,7 @@
 
     </article>
     <article class="card-coachs">
-        <img src="" alt="">
+        <img src="./images/maxime.jpg" alt="Maxime">
         <h3>Maxime</h3>
         <h6>(Perte de poids)</h6>
         <p>
@@ -23,7 +23,7 @@
         <p>Objectif : vous aider à retrouver confiance en vous et à atteindre vos objectifs de perte de poids !</p>
     </article>
     <article class="card-coachs">
-        <img src="" alt="">
+        <img src="./images/amandine2.png" alt="Amandine">
         <h3>Amandine</h3>
         <h6>(Cardio-Training)</h6>
         <p>
@@ -33,7 +33,7 @@
         <p>Objectif : renforcer votre cœur, améliorer votre endurance et brûler des calories de manière ludique !</p>
     </article>
     <article class="card-coachs">
-        <img src="" alt="">
+        <img src="./images/pierre2.jpg" alt="Pierre">
         <h3>Pierre</h3>
         <h6>(Musculation)</h6>
         <p>
