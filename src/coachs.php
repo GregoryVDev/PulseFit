@@ -30,6 +30,14 @@
         </p>
         <p>Objectif : renforcer votre cœur, améliorer votre endurance et brûler des calories de manière ludique !</p>
     </article>
-    <article class="card-coachs"></article>
+    <article class="card-coachs">
+        <h3>Pierre</h3>
+        <h6>(Musculation)</h6>
+        <p>
+            Pierre est un expert en musculation et vous aide à développer votre force et votre masse musculaire. Avec une approche structurée et des séances personnalisées, il vous accompagne dans l'optimisation de vos entraînements pour atteindre vos objectifs, que ce soit pour la prise de masse, le renforcement musculaire ou le perfectionnement de votre technique.
+            Sa connaissance des techniques avancées vous guideront tout au long de votre parcours en s’asurant de vous fournir un programme adapté et des conseils de nutrition.
+        </p>
+        <p>Objectif : vous aider à devenir plus fort et plus musclé à chaque séance !</p>
+    </article>
 </main>
 <?php include "./template/footer.php" ?>
