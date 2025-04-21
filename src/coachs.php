@@ -3,6 +3,7 @@
     <h1>Nos coachs vous accompagne.</h1>
 
     <article class="card-coachs">
+        <img src="" alt="">
         <h3>Laura</h3>
         <h6>(CrossFit)</h6>
         <p>
@@ -13,15 +14,16 @@
 
     </article>
     <article class="card-coachs">
+        <img src="" alt="">
         <h3>Maxime</h3>
         <h6>(Perte de poids)</h6>
-
         <p>
             Maxime est spécialisé dans l'accompagnement des personnes souhaitant perdre du poids et retrouver leur forme. Grâce à une approche personnalisée, il combine des entraînements efficaces et une prise en charge globale, intégrant l'alimentation et le mode de vie. Chaque séance devient un challenge motivant pour brûler les calories et améliorer votre condition physique, tout en gardant une approche bienveillante. Il sait adapter les exercices à votre niveau pour vous aider à atteindre vos objectifs de manière progressive et durable.
         </p>
         <p>Objectif : vous aider à retrouver confiance en vous et à atteindre vos objectifs de perte de poids !</p>
     </article>
     <article class="card-coachs">
+        <img src="" alt="">
         <h3>Amandine</h3>
         <h6>(Cardio-Training)</h6>
         <p>
@@ -31,6 +33,7 @@
         <p>Objectif : renforcer votre cœur, améliorer votre endurance et brûler des calories de manière ludique !</p>
     </article>
     <article class="card-coachs">
+        <img src="" alt="">
         <h3>Pierre</h3>
         <h6>(Musculation)</h6>
         <p>
